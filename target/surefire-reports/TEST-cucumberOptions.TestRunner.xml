@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cucumberOptions.TestRunner" time="0.93" tests="56" errors="0" skipped="49" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\Automation\target\test-classes;E:\Automation\target\classes;C:\Users\Admin\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Admin\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\Admin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire144620970640507095\surefirebooter2625536564518600815.jar C:\Users\Admin\AppData\Local\Temp\surefire144620970640507095 2018-03-29T02-55-23_166-jvmRun1 surefire190359303552729616tmp surefire_0741675307791014625tmp"/>
+    <property name="surefire.test.class.path" value="E:\Automation\target\test-classes;E:\Automation\target\classes;C:\Users\Admin\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Admin\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Admin\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\Admin\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
+    <property name="basedir" value="E:\Automation"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire144620970640507095\surefirebooter2625536564518600815.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="user.name" value="Admin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="user.dir" value="E:\Automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\nodejs\;C:\Work\apache-maven-3.5.3\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Given Validate the browser" classname="Scenario: Home page default login" time="0">
+    <skipped/>
+    <system-out><![CDATA[Feature: Application Login
+]]></system-out>
+  </testcase>
+  <testcase name="Given Validate the browser" classname="Scenario: Home page default login" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  @PortalTest
+  Scenario: Home page default login                                      # Account.feature:9
+    Given User is on landing page                                        # MyStepDefinitions.user_is_on_landing_page()
+    When User login into application with "manish" and password "gfdgsd" # MyStepDefinitions.user_login_into_application_with_something_and_password_something(String,String)
+    Then Home page is populated                                          # MyStepDefinitions.home_page_is_populated()
+    And Cards displayed are "true"                                       # MyStepDefinitions.cards_displayed_are_something(String)
+]]></system-out>
+  </testcase>
+  <testcase name="Given Validate the browser" classname="Scenario: Home page default login" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  @PortalTest
+  Scenario: Home page default login                                              # Account.feature:16
+    Given User is on landing page                                                # MyStepDefinitions.user_is_on_landing_page()
+    When User login into application with "madffnish" and password "gfddsfdsgsd" # MyStepDefinitions.user_login_into_application_with_something_and_password_something(String,String)
+    Then Home page is populated                                                  # MyStepDefinitions.home_page_is_populated()
+    And Cards displayed are "false"                                              # MyStepDefinitions.cards_displayed_are_something(String)
+]]></system-out>
+  </testcase>
+  <testcase name="When Browser is triggered" classname="Scenario: Home page default login" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When Browser is triggered" classname="Scenario: Home page default login" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When Browser is triggered" classname="Scenario: Home page default login" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then check if browser is started" classname="Scenario: Home page default login" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then check if browser is started" classname="Scenario: Home page default login" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then check if browser is started" classname="Scenario: Home page default login" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given User is on landing page" classname="Scenario: Home page default login" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Background:                        # Account.feature:3
+    Given Validate the browser       # MyStepDefinitions.validate_the_browser()
+    When Browser is triggered        # MyStepDefinitions.browser_is_triggered()
+    Then check if browser is started # MyStepDefinitions.check_if_browser_is_started()
+]]></system-out>
+  </testcase>
+  <testcase name="Given User is on landing page" classname="Scenario: Home page default login" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Background:                        # Account.feature:3
+    Given Validate the browser       # MyStepDefinitions.validate_the_browser()
+    When Browser is triggered        # MyStepDefinitions.browser_is_triggered()
+    Then check if browser is started # MyStepDefinitions.check_if_browser_is_started()
+]]></system-out>
+  </testcase>
+  <testcase name="Given User is on landing page" classname="Scenario: Home page default login" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Background:                        # Account.feature:3
+    Given Validate the browser       # MyStepDefinitions.validate_the_browser()
+    When Browser is triggered        # MyStepDefinitions.browser_is_triggered()
+    Then check if browser is started # MyStepDefinitions.check_if_browser_is_started()
+]]></system-out>
+  </testcase>
+  <testcase name="When User login into application with &quot;manish&quot; and password &quot;gfdgsd&quot;" classname="Scenario: Home page default login" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Home page is populated" classname="Scenario: Home page default login" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Home page is populated" classname="Scenario: Home page default login" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Home page is populated" classname="Scenario: Home page default login" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Cards displayed are &quot;true&quot;" classname="Scenario: Home page default login" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Home page default login" classname="Scenario: Home page default login" time="0.049"/>
+  <testcase name="Scenario: Home page default login" classname="Scenario: Home page default login" time="0.067"/>
+  <testcase name="Scenario: Home page default login" classname="Scenario: Home page default login" time="0.069"/>
+  <testcase name="When User login into application with &quot;madffnish&quot; and password &quot;gfddsfdsgsd&quot;" classname="Scenario: Home page default login" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Cards displayed are &quot;false&quot;" classname="Scenario: Home page default login" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Cards displayed are &quot;false&quot;" classname="Scenario: Home page default login" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When User sign up with the following details" classname="Scenario: Home page default login" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given Validate the browser" classname="| manish | manish1 |" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  @PortalTest
+  Scenario: Home page default login              # Account.feature:23
+    Given User is on landing page                # MyStepDefinitions.user_is_on_landing_page()
+    When User sign up with the following details # MyStepDefinitions.user_sign_up_with_the_following_details(DataTable)
+    Then Home page is populated                  # MyStepDefinitions.home_page_is_populated()
+    And Cards displayed are "false"              # MyStepDefinitions.cards_displayed_are_something(String)
+
+  @PortalTest
+  Scenario Outline: Home page default login                                   # Account.feature:31
+    Given User is on landing page
+    When User login in to application with <Username> and password <password>
+    Then Home page is populated
+    And Cards displayed are "false"
+
+    Examples: 
+]]></system-out>
+  </testcase>
+  <testcase name="When Browser is triggered" classname="| manish | manish1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then check if browser is started" classname="| manish | manish1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given User is on landing page" classname="| manish | manish1 |" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Background:                        # Account.feature:3
+    Given Validate the browser       # MyStepDefinitions.validate_the_browser()
+    When Browser is triggered        # MyStepDefinitions.browser_is_triggered()
+    Then check if browser is started # MyStepDefinitions.check_if_browser_is_started()
+]]></system-out>
+  </testcase>
+  <testcase name="When User login in to application with manish and password manish1" classname="| manish | manish1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Home page is populated" classname="| manish | manish1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Cards displayed are &quot;false&quot;" classname="| manish | manish1 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| manish | manish1 |" classname="| manish | manish1 |" time="0.012"/>
+  <testcase name="Given Validate the browser" classname="| manish1 | manish2 |" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  @PortalTest
+  Scenario Outline: Home page default login                            # Account.feature:39
+    Given User is on landing page                                      # MyStepDefinitions.user_is_on_landing_page()
+    When User login in to application with manish and password manish1 # MyStepDefinitions.user_login_into_application_with_and_password(String,String)
+    Then Home page is populated                                        # MyStepDefinitions.home_page_is_populated()
+    And Cards displayed are "false"                                    # MyStepDefinitions.cards_displayed_are_something(String)
+]]></system-out>
+  </testcase>
+  <testcase name="When Browser is triggered" classname="| manish1 | manish2 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then check if browser is started" classname="| manish1 | manish2 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given User is on landing page" classname="| manish1 | manish2 |" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Background:                        # Account.feature:3
+    Given Validate the browser       # MyStepDefinitions.validate_the_browser()
+    When Browser is triggered        # MyStepDefinitions.browser_is_triggered()
+    Then check if browser is started # MyStepDefinitions.check_if_browser_is_started()
+]]></system-out>
+  </testcase>
+  <testcase name="When User login in to application with manish1 and password manish2" classname="| manish1 | manish2 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Home page is populated" classname="| manish1 | manish2 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Cards displayed are &quot;false&quot;" classname="| manish1 | manish2 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| manish1 | manish2 |" classname="| manish1 | manish2 |" time="0.033"/>
+  <testcase name="Given Validate the browser" classname="| manish2 | manish3 |" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  @PortalTest
+  Scenario Outline: Home page default login                             # Account.feature:40
+    Given User is on landing page                                       # MyStepDefinitions.user_is_on_landing_page()
+    When User login in to application with manish1 and password manish2 # MyStepDefinitions.user_login_into_application_with_and_password(String,String)
+    Then Home page is populated                                         # MyStepDefinitions.home_page_is_populated()
+    And Cards displayed are "false"                                     # MyStepDefinitions.cards_displayed_are_something(String)
+]]></system-out>
+  </testcase>
+  <testcase name="When Browser is triggered" classname="| manish2 | manish3 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then check if browser is started" classname="| manish2 | manish3 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given User is on landing page" classname="| manish2 | manish3 |" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Background:                        # Account.feature:3
+    Given Validate the browser       # MyStepDefinitions.validate_the_browser()
+    When Browser is triggered        # MyStepDefinitions.browser_is_triggered()
+    Then check if browser is started # MyStepDefinitions.check_if_browser_is_started()
+]]></system-out>
+  </testcase>
+  <testcase name="When User login in to application with manish2 and password manish3" classname="| manish2 | manish3 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Home page is populated" classname="| manish2 | manish3 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Cards displayed are &quot;false&quot;" classname="| manish2 | manish3 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| manish2 | manish3 |" classname="| manish2 | manish3 |" time="0.034"/>
+  <testcase name="Given Validate the browser" classname="| manish3 | manish4 |" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  @PortalTest
+  Scenario Outline: Home page default login                             # Account.feature:41
+    Given User is on landing page                                       # MyStepDefinitions.user_is_on_landing_page()
+    When User login in to application with manish2 and password manish3 # MyStepDefinitions.user_login_into_application_with_and_password(String,String)
+    Then Home page is populated                                         # MyStepDefinitions.home_page_is_populated()
+    And Cards displayed are "false"                                     # MyStepDefinitions.cards_displayed_are_something(String)
+]]></system-out>
+  </testcase>
+  <testcase name="When Browser is triggered" classname="| manish3 | manish4 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then check if browser is started" classname="| manish3 | manish4 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given User is on landing page" classname="| manish3 | manish4 |" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+  Background:                        # Account.feature:3
+    Given Validate the browser       # MyStepDefinitions.validate_the_browser()
+    When Browser is triggered        # MyStepDefinitions.browser_is_triggered()
+    Then check if browser is started # MyStepDefinitions.check_if_browser_is_started()
+]]></system-out>
+  </testcase>
+  <testcase name="When User login in to application with manish3 and password manish4" classname="| manish3 | manish4 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Home page is populated" classname="| manish3 | manish4 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Cards displayed are &quot;false&quot;" classname="| manish3 | manish4 |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="| manish3 | manish4 |" classname="| manish3 | manish4 |" time="0.028"/>
+</testsuite>
